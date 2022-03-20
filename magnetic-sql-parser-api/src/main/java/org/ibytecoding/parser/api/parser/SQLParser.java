@@ -1,4 +1,4 @@
-package parser.api.parser;
+package org.ibytecoding.parser.api.parser;
 
 /**
  * SQL 语法解析

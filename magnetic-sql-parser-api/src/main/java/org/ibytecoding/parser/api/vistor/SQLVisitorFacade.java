@@ -1,8 +1,8 @@
-package parser.api.vistor;
+package org.ibytecoding.parser.api.vistor;
 
-import parser.api.vistor.statement.DDLVisitor;
-import parser.api.vistor.statement.DMLVisitor;
-import parser.api.vistor.statement.DQLVisitor;
+import org.ibytecoding.parser.api.vistor.statement.DDLVisitor;
+import org.ibytecoding.parser.api.vistor.statement.DMLVisitor;
+import org.ibytecoding.parser.api.vistor.statement.DQLVisitor;
 
 /**
  * SQL Visitor Facade
