@@ -13,6 +13,9 @@
     <artifactId>magnetic-sql-parser-engine</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+        </dependency>
     </dependencies>
 </project>

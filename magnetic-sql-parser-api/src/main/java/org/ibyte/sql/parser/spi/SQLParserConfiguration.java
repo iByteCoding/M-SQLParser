@@ -1,8 +1,8 @@
-package org.ibytecoding.parser.spi;
+package org.ibyte.sql.parser.spi;
 
-import org.ibytecoding.parser.api.lexer.SQLLexer;
-import org.ibytecoding.parser.api.parser.SQLParser;
-import org.ibytecoding.parser.api.vistor.SQLVisitorFacade;
+import org.ibyte.sql.parser.api.lexer.SQLLexer;
+import org.ibyte.sql.parser.api.parser.SQLParser;
+import org.ibyte.sql.parser.api.vistor.SQLVisitorFacade;
 
 /**
  * SQL解析器配置
