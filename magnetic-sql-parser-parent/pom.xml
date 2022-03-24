@@ -7,6 +7,9 @@
     <groupId>org.ibytecoding.msqlparser</groupId>
     <artifactId>magnetic-sql-parser-parent</artifactId>
     <version>1.0.1-SNAPSHOT</version>
+    <modules>
+        <module>magnetic-sql-parser-binder</module>
+    </modules>
     <packaging>pom</packaging>
 
     <properties>
@@ -40,15 +43,17 @@
                 <version>${jsqlparser.version}</version>
             </dependency>
 
+            <!--【M-SQLParser】 dependency-->
+
             <dependency>
                 <groupId>com.ibytecoding.msqlparser</groupId>
-                <artifactId>magnetic-sql-parser-engine</artifactId>
+                <artifactId>magnetic-sql-parser-api</artifactId>
                 <version>${msqlparser.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.ibytecoding.msqlparser</groupId>
-                <artifactId>magnetic-sql-parser-api</artifactId>
+                <artifactId>magnetic-sql-parser-engine</artifactId>
                 <version>${msqlparser.version}</version>
             </dependency>
 
