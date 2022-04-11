@@ -1,7 +1,7 @@
 package org.ibyte.sql.parser.binder.accessor;
 
-import org.ibyte.sql.parser.binder.annotation.NullUnable;
-import org.ibyte.sql.parser.binder.exception.IllegalValueException;
+import org.ibyte.sql.parser.binder.annotation.attribute.NullUnable;
+import org.ibyte.sql.parser.exception.IllegalValueException;
 import org.ibyte.sql.parser.binder.util.Numbers;
 
 /**

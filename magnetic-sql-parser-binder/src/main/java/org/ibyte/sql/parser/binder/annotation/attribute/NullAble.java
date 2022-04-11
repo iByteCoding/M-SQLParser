@@ -1,4 +1,4 @@
-package org.ibyte.sql.parser.binder.annotation;
+package org.ibyte.sql.parser.binder.annotation.attribute;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

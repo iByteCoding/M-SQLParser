@@ -1,6 +1,6 @@
-package org.ibyte.sql.parser.binder.exception;
+package org.ibyte.sql.parser.exception;
 
-import org.ibyte.sql.parser.binder.exception.message.ExceptionMessage;
+import org.ibyte.sql.parser.exception.message.ExceptionMessage;
 
 /**
  * 非法值异常

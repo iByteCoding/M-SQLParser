@@ -1,4 +1,4 @@
-package org.ibyte.sql.parser.binder.exception.message;
+package org.ibyte.sql.parser.exception.message;
 
 /**
  * 参数消息
