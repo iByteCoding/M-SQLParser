@@ -24,7 +24,7 @@ public interface SQLVisitorFacade {
     Class<? extends DDLVisitor> getDDLVisitorClass();
 
     /**
-     * Get DQL visitor class.
+     * Get DDL visitor class
      *
      * @return DQL visitor class
      */

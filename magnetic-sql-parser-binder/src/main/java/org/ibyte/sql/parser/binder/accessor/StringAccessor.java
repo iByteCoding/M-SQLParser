@@ -1,6 +1,6 @@
 package org.ibyte.sql.parser.binder.accessor;
 
-import org.ibyte.sql.parser.binder.annotation.NonNull;
+import org.ibyte.sql.parser.binder.annotation.NullUnable;
 import org.ibyte.sql.parser.binder.exception.IllegalValueException;
 import org.ibyte.sql.parser.binder.util.Numbers;
 
@@ -17,7 +17,7 @@ public abstract class StringAccessor<K, T> implements Accessor<K, T> {
     private T t;
 
     @Override
-    public void setTarget(@NonNull T target) {
+    public void setTarget(@NullUnable T target) {
         this.t = target;
     }
 

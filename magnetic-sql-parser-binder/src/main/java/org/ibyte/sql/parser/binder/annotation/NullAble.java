@@ -9,7 +9,7 @@ import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
 
 /**
- * 允许为null标识
+ * 标记允许为空标识
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

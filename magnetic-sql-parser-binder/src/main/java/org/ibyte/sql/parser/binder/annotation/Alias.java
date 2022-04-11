@@ -12,7 +12,11 @@ import static java.lang.annotation.ElementType.PACKAGE;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE, ANNOTATION_TYPE, PACKAGE})
-public @interface Name {
+public @interface Alias {
+
+    /**
+     * 别名标注
+     */
     String value();
 }
 

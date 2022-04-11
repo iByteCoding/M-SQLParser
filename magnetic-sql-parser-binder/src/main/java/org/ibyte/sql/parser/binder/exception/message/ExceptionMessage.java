@@ -1,7 +1,5 @@
 package org.ibyte.sql.parser.binder.exception.message;
 
-import javax.lang.model.element.Parameterizable;
-
 /**
  * 参数消息
  */
