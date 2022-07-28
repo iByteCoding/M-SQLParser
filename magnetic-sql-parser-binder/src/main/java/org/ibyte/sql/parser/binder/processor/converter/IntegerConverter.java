@@ -7,6 +7,7 @@ import org.ibyte.sql.parser.exception.message.ValueConvertException;
  * 数值转化器
  */
 public class IntegerConverter implements Converter<Object, Integer> {
+
     public static final IntegerConverter INSTANCE = new IntegerConverter();
 
     @Override
