@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.ibytecoding.msqlparser</groupId>
-        <artifactId>magnetic-sql-parser-parent</artifactId>
+        <artifactId>magnetic-parent</artifactId>
         <version>1.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
@@ -16,6 +16,10 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
         </dependency>
     </dependencies>
 </project>

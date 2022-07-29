@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ibytecoding.msqlparser</groupId>
-    <artifactId>magnetic-sql-parser-parent</artifactId>
+    <artifactId>magnetic-parent</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
@@ -22,6 +22,8 @@
         <jsqlparser.version>2.1</jsqlparser.version>
         <dbutils.version>1.7</dbutils.version>
         <spring-data-jpa.version>2.1.9.RELEASE</spring-data-jpa.version>
+        <spring-jdbc>5.1.18.RELEASE</spring-jdbc>
+        <org-projectlombok>1.18.8</org-projectlombok>
 
         <msqlparser.version>1.0.1</msqlparser.version>
 
@@ -34,7 +36,16 @@
                 <artifactId>spring-data-jpa</artifactId>
                 <version>${spring-data-jpa.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>${spring-jdbc}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>org-projectlombok</version>
+            </dependency>
             <dependency>
                 <groupId>com.github.jsqlparser</groupId>
                 <artifactId>jsqlparser</artifactId>
