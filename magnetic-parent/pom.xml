@@ -44,7 +44,7 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>org-projectlombok</version>
+                <version>${org-projectlombok}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.jsqlparser</groupId>
