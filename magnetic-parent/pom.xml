@@ -59,12 +59,22 @@
                 <artifactId>magnetic-sql-parser-api</artifactId>
                 <version>${msqlparser.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-spi</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-binder</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.ibytecoding.msqlparser</groupId>
                 <artifactId>magnetic-sql-parser-engine</artifactId>
                 <version>${msqlparser.version}</version>
             </dependency>
+
 
         </dependencies>
     </dependencyManagement>
