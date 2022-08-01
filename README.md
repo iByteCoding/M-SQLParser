@@ -1,4 +1,4 @@
-#  M-SqlParser
+#  M-SQLParser
 
 M-SqlParser解析SQL语句并将其转换为Java类的层次结构。生成的层次结构可以使用Visitor Pattern进行导航
 
