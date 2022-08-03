@@ -15,3 +15,8 @@
 - 2022年08月
   - 1日
     - 添加模块说明、模块依赖图以及模块规划图
+  - 2日
+    - 调整模块依赖关系，添加magnetic-dependencies模块
+  - 3日
+    - 调整模块依赖关系，拆分magnetic-parent.细分内部拓展模块与第三方依赖关系
+    - 调整模块依赖关系，拆分magnetic-sql-parser-common基础模块.中转依赖关
