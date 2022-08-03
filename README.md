@@ -30,7 +30,7 @@ graph TD;
     id3(magnetic-sql-parser-statement)-->id4(magnetic-sql-parser-engine)
     id6(magnetic-sql-parser-common)-->id2(magnetic-sql-parser-binder)
     id6(magnetic-sql-parser-common)-->id3(magnetic-sql-parser-statement)
-    id6(magnetic-sql-parser-common)-->id5(magnetic-sql-parser-spi)
+    id1(magnetic-sql-parser-api)-->id5(magnetic-sql-parser-spi)
 ```
 
 ### 本地编译指南
