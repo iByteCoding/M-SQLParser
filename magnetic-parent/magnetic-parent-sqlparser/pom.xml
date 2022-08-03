@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>magnetic-parent-third</artifactId>
+        <groupId>org.ibytecoding.msqlparser</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+        <relativePath>../magnetic-parent-third</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>magnetic-parent-sqlparser</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        第三方库，负责引入公共开源lib库版本定义、maven发布配置、环境配置等职责
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.repofastjsonrting.outputEncoding>UTF-8</project.repofastjsonrting.outputEncoding>
+        <java.version>1.8</java.version>
+        <resource.delimiter>@</resource.delimiter>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
+
+        <msqlparser.version>1.0.1-SNAPSHOT</msqlparser.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-common</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-api</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-binder</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibytecoding.msqlparser</groupId>
+                <artifactId>magnetic-sql-parser-engine</artifactId>
+                <version>${msqlparser.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
