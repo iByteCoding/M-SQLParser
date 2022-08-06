@@ -10,15 +10,17 @@ import java.util.Optional;
 public interface AliasAvailable extends SQLSegment {
 
     /**
-     * Get alias
+     * Get alias.
+     *
      * @return alias
      */
     Optional<String> getAlias();
 
     /**
      * Set alias.
+     *
      * @param alias alias
      */
-    void setAlias(AliasAvailable alias);
+    void setAlias(AliasSegment alias);
 
 }
