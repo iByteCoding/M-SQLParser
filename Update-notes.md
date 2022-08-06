@@ -20,3 +20,5 @@
   - 3日
     - 调整模块依赖关系，拆分magnetic-parent.细分内部拓展模块与第三方依赖关系
     - 调整模块依赖关系，拆分magnetic-sql-parser-common基础模块.中转依赖关
+  - 6日
+    - 添加约束声明ConstraintDefinitionSegment、DropPrimaryKeySegment
