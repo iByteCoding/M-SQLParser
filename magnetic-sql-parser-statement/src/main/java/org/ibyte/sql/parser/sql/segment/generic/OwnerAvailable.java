@@ -22,5 +22,4 @@ public interface OwnerAvailable extends SQLSegment {
      * @param owner owner
      */
     void setOwner(OwnerSegment owner);
-
 }
