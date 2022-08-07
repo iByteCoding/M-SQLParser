@@ -9,7 +9,6 @@ import org.ibyte.sql.parser.sql.segment.generic.OwnerAvailable;
 import org.ibyte.sql.parser.sql.segment.generic.OwnerSegment;
 import org.ibyte.sql.parser.sql.value.identifier.IdentifierValue;
 
-import java.security.acl.Owner;
 import java.util.Optional;
 
 /**
