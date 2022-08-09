@@ -2,7 +2,7 @@ package org.ibyte.sql.parser.sql.segment.ddl.column.alter;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import org.ibyte.sql.parser.sql.segment.ddl.column.AlterDefinitionSegment;
+import org.ibyte.sql.parser.sql.segment.ddl.AlterDefinitionSegment;
 import org.ibyte.sql.parser.sql.segment.ddl.column.ColumnDefinitionSegment;
 import org.ibyte.sql.parser.sql.segment.ddl.column.position.ColumnPositionSegment;
 

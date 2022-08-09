@@ -1,4 +1,4 @@
-package org.ibyte.sql.parser.sql.segment.ddl.column;
+package org.ibyte.sql.parser.sql.segment.ddl;
 
 import org.ibyte.sql.parser.sql.SQLSegment;
 
