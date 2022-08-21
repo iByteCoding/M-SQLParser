@@ -24,3 +24,5 @@
     - 添加约束声明ConstraintDefinitionSegment、DropPrimaryKeySegment
   - 7日
     - 补充Expression Segment相关内容
+  - 21日
+    - 添加约束声明 magnetic-sql-parser 根级模块(代理层拆分)
