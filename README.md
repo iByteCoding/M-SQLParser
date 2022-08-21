@@ -25,6 +25,10 @@ M-SqlParser解析SQL语句并将其转换为Java类的层次结构。生成的�
 ### 模块依赖图
 ```mermaid
 graph TD;
+    id13(magnetic-parent-sqlparser)-->id12(magnetic-parent)
+    id14(magnetic-parent-sqlparser)-->id12(magnetic-parent)
+
+    id12(magnetic-parent)-->id1(magnetic-sql-parser-api)
 	id1(magnetic-sql-parser-api)-->id6(magnetic-sql-parser-common)
     id2(magnetic-sql-parser-binder)-->id4(magnetic-sql-parser-engine)
     id3(magnetic-sql-parser-statement)-->id4(magnetic-sql-parser-engine)
