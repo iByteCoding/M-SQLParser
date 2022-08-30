@@ -26,3 +26,5 @@
     - 补充Expression Segment相关内容
   - 21日
     - 添加约束声明 magnetic-sql-parser 根级模块(代理层拆分)
+  - 30日
+    - 添加parser-spi 拓展类型声明以及拓展SPI注册
