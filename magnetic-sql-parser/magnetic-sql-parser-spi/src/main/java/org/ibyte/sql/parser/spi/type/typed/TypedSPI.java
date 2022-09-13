@@ -1,4 +1,4 @@
-package org.ibyte.sql.parser.spi.typed;
+package org.ibyte.sql.parser.spi.type.typed;
 
 import java.util.Collection;
 import java.util.Collections;

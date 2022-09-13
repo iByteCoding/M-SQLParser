@@ -28,3 +28,6 @@
     - 添加约束声明 magnetic-sql-parser 根级模块(代理层拆分)
   - 30日
     - 添加parser-spi 拓展类型声明以及拓展SPI注册
+- 2022年09月
+  - 13日
+    - 优化SPI拓展声明 & 加强缓存策略(SoftReference 软引用内存缓存)

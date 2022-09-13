@@ -1,4 +1,4 @@
-package org.ibyte.sql.parser.spi.order;
+package org.ibyte.sql.parser.spi.type.ordered;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
