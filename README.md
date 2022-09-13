@@ -1,6 +1,42 @@
-#  M-SQLParser
 
-M-SqlParser解析SQL语句并将其转换为Java类的层次结构。生成的层次结构可以使用Visitor Pattern进行导航
+## [M-SQLParser - 解析SQL语句并将其转换为Java类的层次结构](https://gitee.com/M-SQLParse/M-SqlParser)
+
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![GitHub release](https://img.shields.io/github/iByteCoding/M-SQLParser/M-SQLParser.svg)](https://github/iByteCoding/M-SQLParser/releases)
+[![Build Status](https://api.travis-ci.org/iByteCoding/M-SQLParser.svg?branch=master&status=created)](https://travis-ci.org/iByteCoding/M-SQLParser)
+[![codecov](https://codecov.io/gh/iByteCoding/M-SQLParser/branch/master/graph/badge.svg)](https://codecov.io/gh/iByteCoding/M-SQLParser)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5394/badge)](https://bestpractices.coreinfrastructure.org/projects/5394)
+[![OpenTracing-1.0 Badge](https://img.shields.io/badge/OpenTracing--1.0-enabled-blue.svg)](http://opentracing.io)
+[![Skywalking Tracing](https://img.shields.io/badge/Skywalking%20Tracing-enable-brightgreen.svg)](https://github.com/apache/skywalking)
+
+| **星评增长时间线**                                                                                                       | **贡献者增长时间线**                                                                                                                                                                                                                                |
+|:---------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [![Stargazers over time](https://starchart.cc/iByteCoding/M-SQLParser.svg)](https://starchart.cc/iByteCoding/M-SQLParser) | [![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=iByteCoding/M-SQLParser)](https://git-contributor.com?chart=contributorOverTime&repo=iByteCoding/M-SQLParser) |
+
+### 概述
+
+<hr>
+
+`M-SqlParser`解析SQL语句并将其转换为Java类的层次结构。生成的层次结构可以使用Visitor Pattern进行导航
+
+`连接`、`增强` 和 `可插拔` 是 M-SqlParser 的核心概念。
+
+- `连接：`通过对数据库协议、SQL 方言以及数据库存储的灵活适配，快速的连接应用与多模式的异构数据库；
+- `增强：`待完善；
+- `可插拔：`项目采用微内核 + 三层可插拔模型，使内核、功能组件以及生态对接完全能够灵活的方式进行插拔式扩展，开发者能够像使用积木一样定制属于自己的独特系统。
+
+
+### 社区和支持💝🖤
+
+<hr>
+
+**Github**
+
+:link: [GitHub Issues](https://github.com/iByteCoding/M-SQLParser/issues). Github社区 | 适合于设计问题、缺陷报告或者开发相关；
+
+**Gitee**
+
+:link: [Gitee Issues](https://gitee.com/M-SQLParse/M-SqlParser/issues). Gitee社区 | 适合于设计问题、缺陷报告或者开发相关；
 
 ### 模块说明
 ```

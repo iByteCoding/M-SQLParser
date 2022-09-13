@@ -29,6 +29,26 @@ public final class OrderedServiceCache {
         return Optional.ofNullable(softCache.get()).map(optional -> optional.get(new Key(spiClass, types)));
     }
 
+    /**
+     * 缓存实例
+     *
+     * @param spiClass SPI Class
+     * @param types    拓展类型
+     * @param services 缓存实例
+     */
+    public static void cacheService(final Class<?> spiClass, final Collection<?> types, final Map<?, ?> services) {
+        Map<Key, Map<?, ?>> cache = softCache.get();
+        if (null == cache) {
+            synchronized (OrderedServiceCache.class) {
+                cache = softCache.get();
+                if (null == cache){
+                    cache = new ConcurrentHashMap<>(128);
+                    softCache = new SoftReference<>(cache);
+                }
+            }
+        }
+    }
+
 
     @RequiredArgsConstructor
     @EqualsAndHashCode
