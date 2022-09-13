@@ -41,12 +41,13 @@ public final class OrderedServiceCache {
         if (null == cache) {
             synchronized (OrderedServiceCache.class) {
                 cache = softCache.get();
-                if (null == cache){
+                if (null == cache) {
                     cache = new ConcurrentHashMap<>(128);
                     softCache = new SoftReference<>(cache);
                 }
             }
         }
+        cache.put(new Key(spiClass,types),services);
     }
 
 
