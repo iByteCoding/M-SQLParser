@@ -1,6 +1,8 @@
 
 ## [M-SQLParser - 解析SQL语句并将其转换为Java类的层次结构](https://gitee.com/M-SQLParse/M-SqlParser)
 
+[![star](https://gitee.com/M-SQLParse/M-SqlParser/badge/star.svg?theme=dark)](https://gitee.com/M-SQLParse/M-SqlParser/stargazers)
+[![fork](https://gitee.com/M-SQLParse/M-SqlParser/badge/fork.svg?theme=dark)](https://gitee.com/M-SQLParse/M-SqlParser/members)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![GitHub release](https://img.shields.io/github/iByteCoding/M-SQLParser/M-SQLParser.svg)](https://github/iByteCoding/M-SQLParser/releases)
 [![Build Status](https://api.travis-ci.org/iByteCoding/M-SQLParser.svg?branch=master&status=created)](https://travis-ci.org/iByteCoding/M-SQLParser)
