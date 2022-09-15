@@ -1,8 +1,11 @@
 package org.ibyte.sql.parser.sql.common.constant;
 
 
+import com.google.common.base.Strings;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+
+import java.util.Arrays;
 
 /**
  * 引用字符
@@ -29,14 +32,16 @@ public enum QuoteCharacter {
      * 获取引用字符
      */
     public static QuoteCharacter getQuoteCharacter(final String value) {
-        if (value == null || value.isEmpty()) {
-            return QuoteCharacter.NONE;
+        if (Strings.isNullOrEmpty(value)) {
+            return NONE;
         }
-        for (QuoteCharacter each : QuoteCharacter.values()) {
-            if (QuoteCharacter.NONE != each && each.startDelimiter.charAt(0) == value.charAt(0)) {
-                return each;
-            }
-        }
-        return QuoteCharacter.NONE;
+        return Arrays.stream(values()).filter(each -> NONE != each && each.startDelimiter.charAt(0) == value.charAt(0)).findFirst().orElse(NONE);
+    }
+
+    /**
+     * 获取包装后字符串
+     */
+    public String wrap(final String value) {
+        return startDelimiter + value + endDelimiter;
     }
 }

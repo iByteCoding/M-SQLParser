@@ -1,18 +1,18 @@
-### 更新笔记
+### 更新摘要笔记
 
-- 2022年03月
+- **2022年03月**
   - 25日
     - 定义常用注解@Alias、@NullAble、@NullUnable 以及属性访问器(主要提供给SQL拼装使用)
-- 2022年04月
+- **2022年04月**
   - 11日
     - 补充元数据注解标识，元数据基础属性定义(MetaColumn)以及数据类型转化Converter、BooleanConverter、IntegerConverter、NoopConverter
-- 2022年07月
+- **2022年07月**
   - 30日
     - 添加语法构建器PredicateBuilder 以及SQL准备器定义*Available、*Segment
-- 2022年07月
+- **2022年07月**
   - 30日
     - 添加语法构建器PredicateBuilder 以及SQL准备器定义*Available、*Segment
-- 2022年08月
+- **2022年08月**
   - 1日
     - 添加模块说明、模块依赖图以及模块规划图
   - 2日
@@ -28,6 +28,10 @@
     - 添加约束声明 magnetic-sql-parser 根级模块(代理层拆分)
   - 30日
     - 添加parser-spi 拓展类型声明以及拓展SPI注册
-- 2022年09月
+- **2022年09月**
   - 13日
     - 优化SPI拓展声明 & 加强缓存策略(SoftReference 软引用内存缓存)
+  - 14日
+    - 优化SPI拓展声明 & 调整SQL-Paser segment包结构
+  - 15日
+    - 定义Parser解析处理器 SQLStatementHandler以及业务补充 & 调整Statement ddl\dml
