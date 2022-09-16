@@ -4,7 +4,6 @@
 [![star](https://gitee.com/M-SQLParse/M-SqlParser/badge/star.svg?theme=dark)](https://gitee.com/M-SQLParse/M-SqlParser/stargazers)
 [![fork](https://gitee.com/M-SQLParse/M-SqlParser/badge/fork.svg?theme=dark)](https://gitee.com/M-SQLParse/M-SqlParser/members)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![GitHub release](https://img.shields.io/github/iByteCoding/M-SQLParser/M-SQLParser.svg)](https://github/iByteCoding/M-SQLParser/releases)
 [![Build Status](https://api.travis-ci.org/iByteCoding/M-SQLParser.svg?branch=master&status=created)](https://travis-ci.org/iByteCoding/M-SQLParser)
 [![codecov](https://codecov.io/gh/iByteCoding/M-SQLParser/branch/master/graph/badge.svg)](https://codecov.io/gh/iByteCoding/M-SQLParser)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5394/badge)](https://bestpractices.coreinfrastructure.org/projects/5394)
