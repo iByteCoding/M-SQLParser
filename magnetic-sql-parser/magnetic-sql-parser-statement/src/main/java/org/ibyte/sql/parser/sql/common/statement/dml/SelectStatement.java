@@ -20,7 +20,7 @@ import java.util.Optional;
 @Getter
 @Setter
 @ToString
-public final class SelectStatement extends AbstractSQLStatement implements DMLStatement {
+public abstract class SelectStatement extends AbstractSQLStatement implements DMLStatement {
 
     private ProjectionsSegment projections;
 
@@ -37,7 +37,29 @@ public final class SelectStatement extends AbstractSQLStatement implements DMLSt
     /**
      * Get where.
      */
-    private Optional<WhereSegment> getWhere(){
+    private Optional<WhereSegment> getWhere() {
         return Optional.ofNullable(where);
     }
+
+    /**
+     * Get Group.
+     */
+    private Optional<GroupBySegment> getGroup(){
+        return Optional.ofNullable(group);
+    }
+
+    /**
+     * Get having.
+     */
+    private Optional<HavingSegment> getHaving(){
+        return Optional.ofNullable(having);
+    }
+
+    /**
+     * Get OrderBy.
+     */
+    private Optional<OrderBySegment> getOrderBy(){
+        return Optional.ofNullable(orderBy);
+    }
+
 }
