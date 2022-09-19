@@ -35,3 +35,5 @@
     - 优化SPI拓展声明 & 调整SQL-Paser segment包结构
   - 15日
     - 定义Parser解析处理器 SQLStatementHandler以及业务补充 & 调整Statement ddl\dml
+  - 19日
+    - 定义Parser解析处理器 添加 Model Segment | referenceModelSelect、orderBySegments
