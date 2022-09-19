@@ -14,6 +14,7 @@ import java.util.LinkedList;
 @Getter
 public class AbstractSQLStatement implements SQLStatement {
 
+    @Setter
     private int parameterCount;
 
     private final Collection<ParameterMarkerSegment> parameterMarkerSegments = new LinkedList<>();

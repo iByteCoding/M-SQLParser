@@ -37,3 +37,4 @@
     - 定义Parser解析处理器 SQLStatementHandler以及业务补充 & 调整Statement ddl\dml
   - 19日
     - 定义Parser解析处理器 添加 Model Segment | referenceModelSelect、orderBySegments
+    - 定义Parser解析处理器 添加 DMLStatement 声明定义SelectStatement规则
